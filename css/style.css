@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    background-color:#f4f4f4;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu-item {
+    list-style:none ;
+    list-style-type: none;
+    display: inline;
+    margin: 0 110px 0 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    margin: 30px 50px 40px 0;
+    float:right;
+    font-weight: bold;
+}
+
+.header {
+    background-color: grey;
+}
+
+.header-text{
+    color: white;
+
+    font-size: 30px;
+    float:left;
+    margin: 40px 0 25px 110px;
+}
+
+.header-text-initial{
+    color: orangered;
+}
+
+.header-horizontal-bar{
+    background-color: orange;
+    clear: both;
+    height:4px;
+}
+
+.banner {
+    background-image: url('../img/showcase.jpg');
+
+}
