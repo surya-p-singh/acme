@@ -250,6 +250,8 @@ footer {
     header nav , 
     .branding, 
     .newsletter h1,
+    .newsletter form,
+    .showcase p,
     .main-col,
     .side-col,
     .services-col,
@@ -263,7 +265,11 @@ footer {
     header nav , .branding{
         padding: 10px;
     }
-    
+    .newsletter {
+        border:  1px solid red;
+        text-align: center;
+
+    }
 
     .menu-link{
           float: none;
@@ -274,4 +280,13 @@ footer {
         width: 100%;
         margin: 0 0 10px 0;
     }
+
+    .newsletter h1{
+        margin: 10px 0;
+    }
+
+    .box {
+        width:100%
+    }
+
 }
